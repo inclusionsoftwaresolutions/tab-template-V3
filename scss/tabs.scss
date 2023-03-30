@@ -1,0 +1,38 @@
+$color_1: #000000;
+$color_2: #fff;
+$background-color_1: #7d0000;
+$background-color_2: #FFF;
+$background-color_3: #dce1e9;
+
+body {
+  padding-top: 5rem;
+  background-color: $background-color_3;
+}
+.description {
+  font-size: 12px;
+  color: $color_2;
+}
+.tabs-section {
+  a.nav-link {
+    background-color: $background-color_1;
+    border: 1px solid #cfd6e1;
+    border-radius: 0px;
+    color: $color_2;
+    z-index: 1;
+  }
+  a.nav-link.active {
+    background-color: $background-color_2;
+    z-index: 10000;
+    box-shadow: 0px 18px 12px -12px rgba(226, 231, 237, 1);
+    border-right: #FFF;
+      .description {
+        color: $color_1;
+    }
+  }
+  .container {
+    background-color: $background-color_2;
+    padding: 12px;
+  }
+  padding: 12px;
+  background-color: $background-color_3;
+}
